@@ -1,5 +1,5 @@
-﻿using Retailers.API.DAL;
-
+﻿//using Retailers.API.DAL;
+using Retailers.API.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -5,9 +5,10 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Mvc;
-using Retailers.API.DAL;
+//using Retailers.API.DAL;
+using Retailers.API.Models;
 using Retailers.API.Repository;
-
+using System.Data.Entity;
 
 namespace RetailersAPI.Controllers
 {
