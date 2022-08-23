@@ -33,3 +33,13 @@ api/getrewards/{customerId}
 
 	Get the rewards calculated for all the transaction ( returns a dictionary with transaction number and rewards)
 
+
+Instruction to run the code:
+===========================
+
+1. Clone the repository to your local. Using Visual Studio ( preferably VS 2019), open the solution bydouble clicking it.
+2. Rebuild the solution,if require resotre the Nuget pacakges from Nuget pacakage manager.
+3. Run the solution, to get the web API up and running in <https://localhost:44336/api/getrewards/201>
+4. Refer the attached Output document for sample outputs. 
+5. Implemented Swagger UI for documentation, after running the solution access the below URLfor swagger UI.
+	https://localhost:44336/swagger/ui/index
