@@ -1,0 +1,6 @@
+﻿INSERT INTO [dbo].[Customer] ([Customer_ID], [CUSTOMER_NM]) VALUES (200, N'Raj')
+INSERT INTO [dbo].[Customer] ([Customer_ID], [CUSTOMER_NM]) VALUES (201, N'gowri')
+INSERT INTO [dbo].[Customer] ([Customer_ID], [CUSTOMER_NM]) VALUES (202, N'Sekar')
+INSERT INTO [dbo].[Customer] ([Customer_ID], [CUSTOMER_NM]) VALUES (203, N'Kamal')
+INSERT INTO [dbo].[Customer] ([Customer_ID], [CUSTOMER_NM]) VALUES (204, N'Dia')
+INSERT INTO [dbo].[Customer] ([Customer_ID], [CUSTOMER_NM]) VALUES (205, N'Bala')

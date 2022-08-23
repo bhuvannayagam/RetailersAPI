@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Retailers.API.DAL
+namespace Retailers.API.Models
 {
     using System;
     using System.Data.Entity;
@@ -25,6 +25,7 @@ namespace Retailers.API.DAL
             throw new UnintentionalCodeFirstException();
         }
     
+        public DbSet<Customer> Customers { get; set; }
         public DbSet<SALE> SALES { get; set; }
     }
 }

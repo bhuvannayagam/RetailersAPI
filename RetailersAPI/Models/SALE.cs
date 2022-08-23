@@ -7,7 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Retailers.API.DAL
+using System.Data.Entity;
+
+
+namespace Retailers.API.Models
 {
     using System;
     using System.Collections.Generic;
@@ -18,5 +21,7 @@ namespace Retailers.API.DAL
         public System.DateTime Transaction_date { get; set; }
         public int Customer_ID { get; set; }
         public decimal Transaction_value { get; set; }
+    
+        public virtual Customer Customer { get; set; }
     }
 }
